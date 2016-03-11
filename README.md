@@ -1,1 +1,1 @@
-# hero_editor_angular2
+# angular2_baby
