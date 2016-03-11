@@ -1,0 +1,1 @@
+# hero_editor_angular2
