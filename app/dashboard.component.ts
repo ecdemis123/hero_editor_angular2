@@ -16,5 +16,9 @@ export class DashboardComponent implements OnInit {
     this._heroService.getHeroes()
       .then(heroes => this.heroes = heroes.slice(1,5));
   }
-  gotoDetail(){ /* not implemented yet */}
+  gotoDetail(hero: Hero) {
+    let link = ['HeroDetail', { id: hero.id }];
+    this._router.navigate(link);
+  }
+
 }
